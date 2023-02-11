@@ -1,18 +1,23 @@
-import React, { useState ,useRef ,useEffect} from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
-import About from "./components/About";
-import Projects from "./components/Projects";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 import Contacts from "./components/Contacts/Contacts";
 import CloseButton from "./components/closebutton";
-import Help from "./components/help";
+import Help from "./components/Help/help";
 
 import ScrollButton from './components/Scroll/ScrollButton'
 
 
+
+
+
+import SnakeGame from "./components/Snake/SnakeGame";
+import Command from "./components/Command";
 function App() {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState([]);
-  
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -33,13 +38,16 @@ function App() {
         window.location.reload();
         break;
       case "help":
-        newOutput.push(<Help/>); 
+        newOutput.push(<Help />);
+        break;
+      case "snake":
+        newOutput.push(<SnakeGame />);
         break;
       case "email":
         window.location.href = "mailto:dyanixdhawale@gmail.com?subject=Enquiry";
         break;
       default:
-        newOutput.push("Command not recognized. Try 'about', 'projects', 'contact', or 'help'");
+        newOutput.push(<Command/>);
     }
 
     setOutput(newOutput);
@@ -53,9 +61,10 @@ function App() {
   useEffect(() => {
     outputRef.current.scrollIntoView({ behavior: "smooth" });
   }, [output]);
-  
+
   return (
     <div className="App">
+       
       {/* <header>
         <nav>
           <ul>
@@ -101,41 +110,43 @@ function App() {
       </header> */}
       <main>
         <div className="terminal">
-          <div  className="close">
-          <CloseButton/>
-          {/* <button className="close-button"  onClick={handleClose} >×</button> */}
-          <button className="close-button2">+</button>
-          <button className="close-button3">-</button>
-          
+          <div className="close">
+            <CloseButton />
+            {/* <button className="close-button"  onClick={handleClose} >×</button> */}
+            <button className="close-button2">+</button>
+            <button className="close-button3">-</button>
+
           </div>
-        
+
 
           <form onSubmit={handleSubmit}>
-      <p >Welcome to my portfolio! — Type <span className="colorhelp">help</span> for a list of supported commands.</p>
-      {output.map((out, i) => (
-        <div key={i}>
-          <pre className="terminal-output">{out}</pre>
-        </div>
-      ))}
-      <div className="terminal-input">
-        <span>♛dyanix@dhawale-2002:~$&nbsp;</span><span className="cursor">█</span>   
-        <input
-          type="text"
-          value={input}
-          onChange={(event) => setInput(event.target.value)}
-        />
-      </div>
-      <div ref={outputRef} />
-    </form>
+            <p >Welcome to my portfolio! — Type <span className="colorhelp">help</span> for a list of supported commands.</p>
+            {output.map((out, i) => (
+              <div key={i}>
+                <pre className="terminal-output">{out}</pre>
+              </div>
+            ))}
+            <div className="terminal-input">
+              <span>♛dyanix@dhawale-2002:~$&nbsp;</span><span className="cursor">█</span>
+              <input
+                type="text"
+                value={input}
+                onChange={(event) => setInput(event.target.value)}
+              />
+            </div>
+            <div ref={outputRef} />
+          </form>
 
         </div>
       </main>
       <footer>
-        <p className="footer-text">&copy; {new Date().getFullYear()} Terminal Portfolio</p>
+        <p className="footer-text">&copy; {new Date().getFullYear()} Terminal Portfolio 🇮🇳</p>
+
       </footer>
       <ScrollButton />
+      {/* <Particles /> */}
     </div>
-    
+
   );
 }
 

@@ -4,6 +4,7 @@ body {
   color: green;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .App {
@@ -56,7 +57,7 @@ footer {
 .terminal {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
 }
 
@@ -179,3 +180,16 @@ pre {
   margin-right: 9px;
   color: #070707;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
