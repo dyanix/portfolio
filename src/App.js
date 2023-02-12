@@ -65,10 +65,10 @@ function App() {
   return (
     <div className="App">
        
-      {/* <header>
+      <header>
         <nav>
           <ul>
-            <li>
+            {/* <li>
               <a
                 href="#"
                 onClick={() => {
@@ -100,14 +100,14 @@ function App() {
               >
                 Contact
               </a>
-            </li>
+            </li> */}
             
               <a href="https://github.com/dyanix" >Github</a>
               <a href="https://www.linkedin.com/in/dyanesh-dhawale-8742241b9/" >LinkDin</a>
 
           </ul>
         </nav>
-      </header> */}
+      </header>
       <main>
         <div className="terminal">
           <div className="close">
@@ -144,7 +144,6 @@ function App() {
 
       </footer>
       <ScrollButton />
-      {/* <Particles /> */}
     </div>
 
   );

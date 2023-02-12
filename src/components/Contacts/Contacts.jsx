@@ -12,16 +12,21 @@ const Contacts = () => {
           <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dyanesh dhawale" height="30" width="40" />
         </a>
 
-        <h3 align="left">kaggle:</h3>
-        <span style={{fontSize:"30px"}}>&#8627;</span>
-        <a href="https://kaggle.com/dyanix" target="blank">
-          <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dyanix" height="30" width="40" />
-        </a>
 
         <h3 align="left">leetcode:</h3>
         <span style={{fontSize:"30px"}}>&#8627;</span>
         <a href="https://www.leetcode.com/dyanix" target="blank">
           <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="dyanix" height="30" width="40" />
+        </a>
+        <h3 align="left">Github:</h3>
+        <span style={{fontSize:"30px"}}>&#8627;</span>
+        <a href="https://github.com/dyanix" target="blank">
+          <img align="center" src="https://img.icons8.com/fluent/48/000000/github.png" />
+        </a>
+        <h3 align="left">kaggle:</h3>
+        <span style={{fontSize:"30px"}}>&#8627;</span>
+        <a href="https://kaggle.com/dyanix" target="blank">
+          <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dyanix" height="30" width="40" />
         </a>
 
         <h3 align="left">instagram:</h3>
@@ -34,11 +39,6 @@ const Contacts = () => {
         <span style={{fontSize:"30px"}}>&#8627;</span>
         <a href="https://twitter.com/dyanixdhawale" target="blank">
           <img align="center" src="https://img.icons8.com/fluent/48/000000/twitter.png" />
-        </a>
-        <h3 align="left">Github:</h3>
-        <span style={{fontSize:"30px"}}>&#8627;</span>
-        <a href="https://github.com/dyanix" target="blank">
-          <img align="center" src="https://img.icons8.com/fluent/48/000000/github.png" />
         </a>
       </div>
       

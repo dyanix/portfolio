@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+
 }
 
 .App {
@@ -81,7 +82,7 @@ footer {
   font-family: "Courier New", Courier, monospace;
   background-color: black;
   color: green;
-  padding: 0;
+  padding: 30px;
   margin: 0;
   border-radius: 5px;
 }
@@ -180,10 +181,6 @@ pre {
   margin-right: 9px;
   color: #070707;
 }
-
-
-
-
 
 
 
