@@ -11,7 +11,6 @@ import ScrollButton from './components/Scroll/ScrollButton'
 
 
 
-
 import SnakeGame from "./components/Snake/SnakeGame";
 import Command from "./components/Command";
 function App() {
