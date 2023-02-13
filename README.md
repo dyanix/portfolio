@@ -4,3 +4,5 @@
 <p align="center"><img width="90%" height="auto" href="https://dyanix.github.io/portfolio/" src="portfolio.png"/></p>
 
 <p align="center"><img width="100%" height="auto" src="github.png"/></p>
+
+<p align="center"><img width="100%" height="auto" src="github2.png"/></p>
