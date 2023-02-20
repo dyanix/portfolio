@@ -15,7 +15,7 @@ const Contacts = () => {
 
         <h3 align="left">leetcode:</h3>
         <span style={{fontSize:"30px"}}>&#8627;</span>
-        <a href="https://www.leetcode.com/dyanix" target="blank">
+        <a href="https://leetcode.com/Dyanesh_Dhawale/" target="blank">
           <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="dyanix" height="30" width="40" />
         </a>
         <h3 align="left">Github:</h3>
@@ -25,7 +25,7 @@ const Contacts = () => {
         </a>
         <h3 align="left">kaggle:</h3>
         <span style={{fontSize:"30px"}}>&#8627;</span>
-        <a href="https://kaggle.com/dyanix" target="blank">
+        <a href="https://www.kaggle.com/dyanixdhawale" target="blank">
           <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dyanix" height="30" width="40" />
         </a>
 

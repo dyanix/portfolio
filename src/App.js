@@ -61,6 +61,14 @@ function App() {
     outputRef.current.scrollIntoView({ behavior: "smooth" });
   }, [output]);
 
+
+
+
+
+
+
+
+  
   return (
     <div className="App">
        
