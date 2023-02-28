@@ -8,14 +8,18 @@ import Help from "./components/Help/help";
 
 import ScrollButton from './components/Scroll/ScrollButton'
 
-
-
-
 import SnakeGame from "./components/Snake/SnakeGame";
 import Command from "./components/Command";
+import Landing from "./components/Landing/Landing";
+import TerminalHead from "./components/TerminalHead/TerminalHead";
+
+
+
 function App() {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState([]);
+
+  
 
 
   const handleSubmit = (event) => {
@@ -59,8 +63,13 @@ function App() {
 
   useEffect(() => {
     outputRef.current.scrollIntoView({ behavior: "smooth" });
+   
   }, [output]);
 
+  useEffect(() => {
+    outputRef.current.scrollIntoView({ behavior: "smooth" });
+    window.scrollTo(0, 0);
+  }, []);
 
 
 
@@ -69,65 +78,19 @@ function App() {
 
 
   
-  return (
+  return (<>
+    <Landing/> 
     <div className="App">
-       
-      <header>
-        <nav>
-          <ul>
-            {/* <li>
-              <a
-                href="#"
-                onClick={() => {
-                  setOutput([...output, <About />]);
-                  
-                }}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                onClick={() => {
-                  setOutput([...output, <Projects />]);
-                  
-                }}
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                onClick={() => {
-                  setOutput([...output, <Contacts />]);
-                 
-                }}
-              >
-                Contact
-              </a>
-            </li> */}
-            
-              <a href="https://github.com/dyanix" >Github</a>
-              <a href="https://www.linkedin.com/in/dyanesh-dhawale-8742241b9/" >LinkDin</a>
-
-          </ul>
-        </nav>
-      </header>
+      <TerminalHead/>
       <main>
         <div className="terminal">
           <div className="close">
             <CloseButton />
-            {/* <button className="close-button"  onClick={handleClose} >×</button> */}
             <button className="close-button2">+</button>
             <button className="close-button3">-</button>
-
           </div>
-
-
           <form onSubmit={handleSubmit}>
-            <p >Welcome to my portfolio! — Type <span className="colorhelp">help</span> for a list of supported commands.</p>
+            <p>Welcome to my portfolio! — Type <span className="colorhelp">help</span> for a list of supported commands.</p>
             {output.map((out, i) => (
               <div key={i}>
                 <pre className="terminal-output">{out}</pre>
@@ -143,15 +106,16 @@ function App() {
             </div>
             <div ref={outputRef} />
           </form>
-
         </div>
       </main>
       <footer>
         <p className="footer-text">&copy; {new Date().getFullYear()} Terminal Portfolio 🇮🇳</p>
-
       </footer>
-      <ScrollButton />
     </div>
+    <div>
+      {/* <ScrollButton /> */}
+    </div>
+  </>
 
   );
 }

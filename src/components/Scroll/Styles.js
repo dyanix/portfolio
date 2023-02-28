@@ -5,13 +5,13 @@ text-align: center;
 color: green;
 `;
 
-export const Content = styled.div`
-overflowY: scroll;
-height: 2500px;
-`;
+// export const Content = styled.div`
+// overflowY: scroll;
+// height: 2500px;
+// `;
 
 export const Button = styled.div`
-position: relative;
+position: absolute;
 width: 100%;
 left: 90%;
 bottom:80px;

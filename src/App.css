@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Courier New", Courier, monospace;
   background-color: black;
   color: green;
@@ -6,12 +6,13 @@ body {
   margin: 0;
   overflow-x: hidden;
 
-}
+} */
 
 .App {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  
 
 }
 
@@ -117,16 +118,17 @@ footer {
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: 100vh;
-  margin: 0;
+  margin: 100px;
   padding: 2rem;
   color: #80f58a;
   font: 1rem Inconsolata, monospace;
   text-shadow: 0 0 13px #35e279;
   filter: blur(0px);
+  overflow-x: hidden;
 }
-body::after {
+/* body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -134,7 +136,7 @@ body::after {
   width: 100vw;
   height: 100vh;
   pointer-events: none;
-}
+} */
 
 .animate::selection {
   background: #078011;
