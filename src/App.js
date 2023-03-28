@@ -19,7 +19,7 @@ function App() {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState([]);
 
-  
+
 
 
   const handleSubmit = (event) => {
@@ -79,8 +79,9 @@ function App() {
 
   
   return (<>
+    
+    <div className="App" >
     <Landing/> 
-    <div className="App">
       <TerminalHead/>
       <main>
         <div className="terminal">

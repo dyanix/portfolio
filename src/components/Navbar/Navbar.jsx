@@ -5,16 +5,12 @@ import { AiFillLinkedin, AiOutlineHome ,AiOutlineUser ,AiOutlineGithub} from 're
 
 
 const Navbar = () => {
+ 
   return (
 
     <div className="navbar-container" >
       <ul>
-        {/* <li style={{ "--i": "#a955ff", "--j": "#ea51ff" }}>
-          <span class="icon">
-            <AiOutlineHome  style={{ color: '#a955ff' }} />
-          </span>
-          <span class="title">Terminal</span>
-        </li> */}
+        
         <li style={{ "--i": "#56ccf2", "--j": "#2f80ed" }}>
           <span class="icon">
             < AiOutlineUser style={{ color: '#56ccf2' }} />
