@@ -110,7 +110,20 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-   
     z-index: 1;
   }
   
+
+/* .NavCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(10px) brightness(0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+} */

@@ -5,11 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("/Users/dyaneshdhawale/Desktop/Projects/portfolio/futuristic-7868625_1280.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center top;
+  background-size: contain;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-

@@ -7,8 +7,8 @@ import { AiFillLinkedin, AiOutlineFileText, AiOutlineUser, AiOutlineGithub } fro
 const Navbar = () => {
 
   return (
-
-    <div className="navbar-container" >
+<div className='NavCont'>
+    <div className="navbar-container"  >
       <ul>
 
         <li style={{ "--i": "#56ccf2", "--j": "#2f80ed" }}>
@@ -50,6 +50,7 @@ const Navbar = () => {
 
       </ul>
 
+    </div>
     </div>
   )
 }
