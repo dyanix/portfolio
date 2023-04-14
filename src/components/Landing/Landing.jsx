@@ -6,9 +6,12 @@ function Landing() {
   return (
     <>
       <Navbar />
+      <div>
+
       <img class="image" src="https://i.ibb.co/1rrFwKM/portfolio.png" alt="" width="320" height="320" ></img>
       <div class="container">
         <div class="typewriter"><img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" height="30px" />I'm Frontend Developer </div>
+      </div>
       </div>
 
     </>
