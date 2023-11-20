@@ -1,4 +1,4 @@
-
+/* 
 
 
 .container {
@@ -62,4 +62,21 @@
 
 
 
+ */
 
+
+
+ .landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh; /* Adjust the height as needed */
+  color: #80f58a; 
+}
+
+.typewriter-text {
+  font-size: 2em; /* Adjust the font size as needed */
+  background: linear-gradient(to right, #4CAF50, #FFC107); /* Gradient colors for the text */
+ 
+  color: transparent;
+}

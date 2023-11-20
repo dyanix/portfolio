@@ -4,9 +4,9 @@ const TerminalHead = () => {
   return (
     <>
     {/* <div>TerminalHead</div> */}
-    <div class="containers">
+    {/* <div class="containers">
         <div class="typewriter">Hey Use my Treminal !</div>
-      </div>
+      </div> */}
     </>
   )
 }
