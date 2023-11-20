@@ -6,7 +6,6 @@ import Contacts from "./components/Contacts/Contacts";
 import CloseButton from "./components/closebutton";
 import Help from "./components/Help/help";
 
-import ScrollButton from './components/Scroll/ScrollButton'
 
 import SnakeGame from "./components/Snake/SnakeGame";
 import Command from "./components/Command";
@@ -93,8 +92,8 @@ function App() {
           <form onSubmit={handleSubmit}>
             <p>Welcome to my portfolio! — Type <span className="colorhelp">help</span> for a list of supported commands.</p>
             {output.map((out, i) => (
-              <div key={i}>
-                <pre className="terminal-output">{out}</pre>
+              <div className="terminal-output" key={i}>
+                <pre >{out}</pre>
               </div>
             ))}
             <div className="terminal-input">
@@ -113,9 +112,7 @@ function App() {
         <p className="footer-text">&copy; {new Date().getFullYear()} Terminal Portfolio 🇮🇳</p>
       </footer>
     </div>
-    <div>
-      {/* <ScrollButton /> */}
-    </div>
+   
   </>
 
   );

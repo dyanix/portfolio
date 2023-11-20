@@ -59,7 +59,7 @@ footer {
 .terminal {
   background-color: #333;
   color: #fff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   
 }
@@ -85,7 +85,7 @@ footer {
   font-family: "Courier New", Courier, monospace;
   background-color: black;
   color: green;
-  padding: 30px;
+  padding: 20px;
   margin: 0;
   border-radius: 5px;
 }
@@ -145,7 +145,7 @@ body {
 }
 
 pre {
-  margin: 0;
+  margin: 10px;
 }
 
 
@@ -192,4 +192,94 @@ pre {
 
 
 
+
+
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .terminal {
+    font-size: 14px;
+  }
+
+  .terminal p {
+    font-size: 12px;
+  }
+  .terminal-output {
+    font-size: 15px;
+  }
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .cursor {
+    display: none;
+  }
+
+  .terminal-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .terminal-input input {
+    width: 100%;
+  }
+
+  .close {
+    background-color: #100f0f;
+  color: white;
+  padding: 0px;
+  text-align: -webkit-auto;
+  border-radius: 8px;
+  }
+
+ 
+.close-button{
+  background-color: #f12121;
+  border-radius: 51%;
+  border: none;
+  content: "×";
+  color: #070707;
+  margin-right: 9px;
+ 
+}
+
+.close-button2{
+  background-color:  #ffff00;
+  border-radius: 50%;
+  border: none;
+  margin-right: 9px;
+ 
+  color: #070707;
+}
+
+.close-button3{
+  background-color:#00ff00;
+  border-radius: 51%;
+  border: none;
+  margin-right: 9px;
+  color: #070707;
+}
+
+.cursor {
+  width: 2px;
+  background-color: #000;
+  animation: blink 1s cubic-bezier(0, 0, 0, 1) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+}
 

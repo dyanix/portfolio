@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar';
+// import Navbar from '../Navbar/Navbar';
 import "./Landing.css"
 import TypewriterComponent from "typewriter-effect";
 

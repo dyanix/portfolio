@@ -5,7 +5,7 @@ const help = () => {
     
      "List of available commands:\n" +
     "\n" +
-    "about \n ↳ show information about the portfolio.\n" +
+    "about \n ↳ show information about the \n portfolio.\n" +
     "projects \n ↳ show the portfolio projects.\n" +
     "contact \n ↳ show contact information.\n" +
     "clear \n ↳ clear the screen.\n" +

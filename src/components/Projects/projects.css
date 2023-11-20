@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    .terminal-output {
+      font-size: 15px;
+    }
+    pre {
+        font-size: 13px;
+      }
+      
+  }
+
+
+  .terminal-output{
+    font-family: "Courier New", Courier, monospace;
+    background-color: black;
+    color: green;
+    padding: 20px;
+    margin: 0;
+    border-radius: 5px;
+    overflow:  auto;
+  }
+  
+  
