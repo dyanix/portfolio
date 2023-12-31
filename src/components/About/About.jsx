@@ -6,19 +6,28 @@ const About = () => {
       <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" height="30px" />, I'm Dyanesh Dhawale</h1>
 
       <h3 align="center">A passionate frontend developer</h3>
-      - 🔭 I’m currently working on **Portfolio**<br></br>
 
-      - 🌱 I’m currently learning **Backend** <br></br>
+      - 🔭 I’m currently working on **Exciting Projects**<br></br>
 
-      - 💬 Ask me about **React,Firebase and Frontend**<br></br>
+      - 🌱 I’m currently learning **Backend**<br></br>
+
+      - 💬 Ask me about **React,Next and Frontend**<br></br>
 
       - 📫 How to reach me **dyanixdhawale@gmail.com**<br></br>
 
-      - ⚡ Fun fact **I think iam creative and eager to learn faster**
+      - ⚡ Fun fact **I think iam creative and eager to learn faster**<br></br>
+
+      - 📝 Checkout my <a href="https://drive.google.com/file/d/1Vk8sTHeEAbPP4dLUu5q5W2sfN3ZJvEev/view?usp=drive_link" target="_blank" rel="noreferrer">Resume</a>
+
+      <br></br>
+
+
+      <h1 align="center">
+      🛠️ Technologies & Tools
+      </h1>
 
 
 
-      <h3 align="left">Languages and Tools:</h3>
       <p align="center">
         <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /></a>
         <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40" /></a>
